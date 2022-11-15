@@ -1,0 +1,101 @@
+* {margin : 0; padding: 0; } 
+body {font-size: 14px; } 
+img { border: 0;} 
+ul { list-style-type: none; } 
+
+header {height: 100px; background:lightpink; }
+nav {width: 430px; height: 600px; float: left; background:rosybrown; margin-left:100px; }
+section {width: 1100px; height: 300px; float: left; background:white;}
+footer {height: 100px; clear: both; background:lightpink;}
+
+#login_box {margin-top:10px;}
+#login_title { margin: 20px 0 0 0; padding-bottom: 5px;	border-bottom: solid 2px #ffbe10; }
+#login_title span {	font-size: 20px; font-weight: bold; }
+#login_form { margin-top: 8px; }
+#login_form li { margin-top: 10px; }
+#login_form input {	width: 80%; height: 30px; margin-left:25px }
+#login_form #login_btn { margin-top: 15px; margin-bottom: 50px; }
+
+#menu_bar {margin-top:10px;}
+#menu_bar_title { margin: 20px 0 0 0; padding-bottom: 5px;	border-bottom: solid 2px #ffbe10; }
+#menu_bar_title span{font-size: 20px; font-weight: bold;}
+
+
+#menu_bar ul { padding: 25px 0 0 10px; }
+#menu_bar li { margin-left: 5px; color: white; font-size: 20px; margin-bottom:15px; }
+#menu_bar a:link { color: white; }
+#menu_bar a:hover { color: white; }
+#menu_bar a:visited { color: white; }
+#menu_bar a:active { color: white; }
+
+#top { position: relative; height: 80px; margin: 0 auto; }
+#top h3 { position: absolute; top: 25px; left: 40px; font-size: 16px; }
+#top #top_menu { float: right; margin: 30px 60px 0 0;}
+#top #top_menu iframe {float:right;}
+#top #top_menu li { display: inline; }
+
+/* 게시판 글쓰기(board_form.php) */
+#board_box { position: relative; width: 800px; margin: 0 auto; }
+#board_box h3 { margin-top: 30px;	padding: 10px; border-bottom: solid 2px #516e7f; font-size: 20px; }
+#board_form span { display: inline-block; }
+#board_form .col1 { width: 150px; }
+#board_form li {	padding: 12px; border-bottom: solid 1px #dddddd; }
+#board_form input { width: 500px; height: 25px; }
+#board_form textarea { width: 500px;	height: 150px; }
+#board_form #text_area {	position: relative;	height: 158px; } 
+#board_form #text_area .col1 { position: absolute; top: 10px; }
+#board_form #text_area .col2 { position: absolute; left: 166px; }
+#board_box .buttons { text-align: right; margin: 20px 0 40px 0; }
+#board_box .buttons li { display: inline; }
+#board_box .buttons button { padding: 5px 10px; cursor: pointer; }
+/* 게시판 목록보기(board_list.php) */
+#board_list li { padding: 10px 0; border-bottom: solid 1px #dddddd; }
+#board_list span { display: inline-block; text-align: center;}
+#board_list .col1 { width: 80px; }
+#board_list .col2 { width: 330px; text-align: left; }
+#board_list .col3 { width: 100px; }
+#board_list .col4 { width: 40px; }
+#board_list .col5 { width: 180px; }
+#board_list .col6 { width: 40px; }
+#page_num {	text-align: center;	margin: 30px 0 }
+#page_num li { display: inline; }
+/* 게시판 내용보기(board_view.php) */
+#board_box { width: 800px; margin: 0 auto; }
+#board_box .title { margin-top: 30px; padding: 10px; border-bottom: solid 2px #516e7f; font-size: 20px; }
+#view_content li:nth-child(1) {	padding: 15px; border-bottom: solid 1px #aaaaaa; }
+#view_content .col2 { float: right; }
+#view_content li:nth-child(2) {	padding: 15px 15px 80px 15px; border-bottom: solid 1px #cccccc; }
+#view_content li:nth-child(3) button { padding: 5px 20px; margin: 15px 0 40px 720px; cursor: pointer; }
+
+/* 메인 콘텐트 */
+#main_content { position: relative; width: 1000px; height: 240px; margin: 0 auto; }
+#latest { position: absolute; top: 30px; left: 50px; }
+#latest h4 { width: 500px; font-size: 16px; padding-bottom: 5px; border-bottom: solid 1px #dddddd; }
+#latest ul { margin-top: 20px; }
+#latest li { margin-top: 8px; margin-left: 10px; }
+#latest span { display: inline-block; } 
+#latest span:nth-child(1) { width: 280px; }
+#latest span:nth-child(2) { width: 100px; }
+#latest span:nth-child(3) { width: 100px; }
+#point_rank { position: absolute; top: 30px; left: 590px; }
+#point_rank h4 { width: 350px; font-size: 16px; padding-bottom: 5px; border-bottom: solid 1px #dddddd; }
+#point_rank ul { margin-top: 20px; }
+#point_rank li { margin-top: 8px; margin-left: 15px; }
+#point_rank span { display: inline-block; }
+#point_rank span:nth-child(1) { width: 50px; }
+#point_rank span:nth-child(2) { width: 100px; }
+#point_rank span:nth-child(3) { width: 100px; }
+#point_rank span:nth-child(4) { width: 100px; }
+
+#star_rank { position: absolute; top: 30px; left: 50px; }
+#star_rank h4 { width: 500px; font-size: 16px; padding-bottom: 5px; border-bottom: solid 1px #dddddd; }
+#star_rank ul { margin-top: 20px; }
+#star_rank li { margin-top: 8px; margin-left: 10px; }
+#star_rank span { display: inline-block; } 
+#star_rank span:nth-child(1) { width: 280px; }
+#star_rank span:nth-child(2) { width: 100px; }
+#star_rank span:nth-child(3) { width: 100px; }
+
+#point_box { margin-top: 30px; margin-left: 50px; }
+#point_box h3 { width: 500px; font-size: 16px; padding-bottom: 5px; border-bottom: solid 1px #dddddd; }
+#point_box span { display: inline-block;}
